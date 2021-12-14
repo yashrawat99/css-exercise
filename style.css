@@ -1,0 +1,45 @@
+Html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+input,
+label {
+  display: block;
+
+  font-weight: 400;
+}
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+.grandParentContaniner {
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.parentContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+#login-form {
+  padding-top: 20px;
+  padding-left: 100px;
+  height: 300px;
+  width: 300px;
+  background: cornsilk;
+}
+button {
+  margin-top: 10px;
+  align-self: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid gray;
+  width: 50%;
+  border: none;
+}
